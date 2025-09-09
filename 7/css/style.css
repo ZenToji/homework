@@ -138,7 +138,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: -28px;
     padding-bottom: 30px;
-    margin: 0 -14;
+    margin: 0 -14px;
 }
 
 .cards-flex-title{
@@ -217,4 +217,5 @@ body {
 
 .footer-item {
     margin-bottom: 10px;
+
 }
