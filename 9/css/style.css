@@ -1,0 +1,31 @@
+body {
+    background: rgb(33, 32, 36);
+    color: white;
+}
+.element {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+
+}
+.block {
+    margin-right: 50px;
+    position: sticky;
+    left: 50vw;
+    bottom: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    top: 50vh;
+    max-width: calc(50vw - 50px);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
