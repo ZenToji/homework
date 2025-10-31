@@ -537,11 +537,11 @@ body.no-scroll {
     transform: translateY(-50%);
     width: 10px;
     height: 17px;
-    background-image: url("../img/roll.svg");
+    background-image: url("../img/svg/roll.svg");
 }
 
 .special__roll.is-open .special__roll-btn::after {
-    background-image: url("../img/uproll.svg");
+    background-image: url("../img/svg/uproll.svg");
 }
 
 /* панель (выпадающий список) */
@@ -2832,6 +2832,7 @@ align-items: center;
     }
 
 }
+
 
 
 
