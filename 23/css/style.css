@@ -537,11 +537,11 @@ body.no-scroll {
     transform: translateY(-50%);
     width: 10px;
     height: 17px;
-    background-image: url("/img/svg/roll.svg");
+    background-image: url("img/svg/roll.svg");
 }
 
 .special__roll.is-open .special__roll-btn::after {
-    background-image: url("/img/svg/uproll.svg");
+    background-image: url("img/svg/uproll.svg");
 }
 
 /* панель (выпадающий список) */
@@ -1283,7 +1283,7 @@ body.no-scroll {
     width: 30px;
     height: 30px;
 
-    background: url("/img/svg/check.svg") no-repeat;
+    background: url("img/svg/check.svg") no-repeat;
     background-size: 16.5px 11px;
     opacity: 0;
 
@@ -2830,4 +2830,5 @@ align-items: center;
     .hero__img-2 {
         left: 58px;
     }
+
 }
