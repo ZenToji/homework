@@ -190,7 +190,7 @@
         // замена функции makeCheck
         const makeCheck = () => {
             const img = document.createElement('img');
-            img.src = '/img/svg/mark.svg';  // путь к твоей иконке
+            img.src = 'img/svg/mark.svg';  // путь к твоей иконке
             img.alt = 'selected';
             img.classList.add('special__roll-check');
             return img;
@@ -548,8 +548,8 @@
             const text = item.querySelector(".tab-controls__text");
             if (!btn || !text) return;
 
-            const ICON_OPEN = btn.dataset.iconOpen || "/img/svg/cross.svg";   // когда раскрыто
-            const ICON_CLOSED = btn.dataset.iconClosed || "/img/svg/bigPlus.svg"; // когда закрыто
+            const ICON_OPEN = btn.dataset.iconOpen || "img/svg/cross.svg";   // когда раскрыто
+            const ICON_CLOSED = btn.dataset.iconClosed || "img/svg/bigPlus.svg"; // когда закрыто
 
             // <img> для иконки (создадим, если его нет)
             let iconImg = btn.querySelector("img.tab-controls__icon");
@@ -670,6 +670,7 @@
     const telInputs = document.querySelectorAll('input[type="tel"]')
     const im = new Inputmask('+7 (999) 999-99-99')
     im.mask(telInputs)
+
 
 
 })()
